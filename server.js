@@ -9,7 +9,8 @@ const port = process.env.PORT || 3001;
 
 const corsOptions = {
   origin: [
-    'https://www.kingofapes.fun/',
+    'https://kingofapes.fun',
+    'https://www.kingofapes.fun',  // Add this line
     'https://frontendv2-mxw8.onrender.com',
     'http://localhost:4003'  // For local development
   ],
